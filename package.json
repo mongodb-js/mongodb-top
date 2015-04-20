@@ -1,0 +1,33 @@
+{
+  "name": "mongodb-top",
+  "description": "Consume mongotop as a stream.",
+  "version": "0.0.0",
+  "scripts": {
+    "check": "jshint",
+    "test": "mocha",
+    "ci": "npm run check && npm test"
+  },
+  "bin": {
+    "mongodb-top": "bin/mongodb-top.js"
+  },
+  "homepage": "http://github.com/mongodb-js/mongodb-top",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mongodb-js/mongodb-top.git"
+  },
+  "dependencies": {
+    "debug": "^2.1.3",
+    "readable-stream": "^1.0.33"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.0",
+    "jshint": "^2.6.3",
+    "mocha": "^2.2.1",
+    "mongodb": "^2.0.27",
+    "pre-commit": "^1.0.6"
+  },
+  "license": "Apache 2",
+  "precommit": [
+    "check"
+  ]
+}
