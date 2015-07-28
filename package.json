@@ -7,9 +7,6 @@
     "test": "mocha",
     "ci": "npm run check && npm test"
   },
-  "bin": {
-    "mongodb-top": "bin/mongodb-top.js"
-  },
   "homepage": "http://github.com/mongodb-js/mongodb-top",
   "repository": {
     "type": "git",
